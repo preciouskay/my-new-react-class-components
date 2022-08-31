@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = ( {amount}) => {
   return (
     <div className="bg-primary ">
-      <div className=" bg-light text-dark py-3 px-5 rounded  ">
+      <div className=" bg-light text-dark py-3 my-1 px-5 rounded  ">
         <h2 className=" text-center text-info">
             {amount}
         </h2>

@@ -1,33 +1,36 @@
-import React, { Component } from "react";
+ import React, { Component } from "react";
 import { Card } from "./card";
 import { Rows } from "./ThirdSection";
 import { Footer } from "./FourthSection";
-
+import './Presh.css'
 export default class FirstClassComponents extends Component {
   render() {
     return (
       <div className="bg-dark " style={{ fontFamily: "monospace" }}>
         <h2 className="text-center text-white pt-3 ">Welcome To New App </h2>
         <div className="container mt-5">
-          <div className="row gap-1">
-            <p className="col-lg-5 col-md-12 col-sm-12  my-auto  text-center text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
-              maxime! Maxime quos quas laboriosam eum non quibusdam recusandae
-              quia incidunt! Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit. Iure ipsam reprehenderit dolorem aspernatur veniam hic
-              tempore laudantium, rem cumque odio molestiae, maiores debitis quo
-              eum? Odit esse voluptates quas molestias.
-            </p>
-            <div className="col-lg-3 col-md-5  m-3 m-sm-2 ">
+          <div className="row justify-content-center ">
+            <div className="col-lg-6 col-md-12 col-sm-12  my-auto  text-center text-light">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
+                maxime! Maxime quos quas laboriosam eum non quibusdam recusandae
+                quia incidunt! Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Iure ipsam reprehenderit dolorem aspernatur
+                veniam hic tempore laudantium, rem cumque odio molestiae,
+                maiores debitis quo eum? Odit esse voluptates quas molestias.
+              </p>
+            </div>
+            <div className="col-lg-3 col-md-5   headerimg py-3 ">
               <Card img="https://images.unsplash.com/photo-1596205521983-9c372fb3d4f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" />
             </div>
-            <div className="col-lg-3 col-md-5 m-3 m-sm-2 ">
+            <div className="col-lg-3 col-md-5   headerimg py-3 ">
               <Card img="https://images.unsplash.com/photo-1594465919760-441fe5908ab0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" />
             </div>
           </div>
         </div>
-        /* secondcomponents */
-        <div className="bg-info">
+        {/* secondcomponents */}
+
+        <div className="bg-info py-3">
           <div className="container">
             <div className="row py-4">
               <div>
@@ -57,7 +60,7 @@ export default class FirstClassComponents extends Component {
             maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Nulla, esse.
           </p>
-          <div className="row py-4 ">
+          <div className="row py-4  ">
             <div className="col-lg-3  col-md-6 mb-3">
               <Rows />
             </div>
@@ -77,7 +80,7 @@ export default class FirstClassComponents extends Component {
           <div className="container py-3">
             <h2 className="text-white text-center py-4">App Pricing</h2>
 
-            <div className="row gap">
+            <div className="row ">
               <div className="col-lg-4 mb-3">
                 <Footer amount="$50" />
               </div>
@@ -90,6 +93,11 @@ export default class FirstClassComponents extends Component {
             </div>
           </div>
         </div>
+         
+
+         <div className="container">
+
+         </div>
       </div>
     );
   }

@@ -1,0 +1,11 @@
+.fourthsec {
+    position: absolute;
+    left: 70px;
+
+}
+@media (max-width:767px) {
+    .headerimg{
+        width:20rem;
+    }
+    
+} 

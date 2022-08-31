@@ -1,7 +1,7 @@
 export const Rows = () => {
   return (
     <div>
-      <div className=" bg-light text-dark py-3 px-5 rounded opacity-75 ">
+      <div className=" bg-light text-dark py-4 px-5 rounded opacity-75 ">
         <div className=" text-center">
           <i class="bi bi-check-circle display-6  "></i>
         </div>
